@@ -3,5 +3,18 @@ public class Student {
      private int studentId;
      public Student(String name, int studentId) {
          this.name = name;
-         this.studentId = studentId;
+         this.studentId = studentId;    }
+     public String getName() {
+        return name;
+    }
+     public void setName(String name) {
+    this.name =  name;
+}
+     public int getStudentID() {
+    return studentId;
+}
+     public void setStudentId(int student) {
+    this.studentId = student;
+}
+
 }
